@@ -13,6 +13,7 @@ type RoutesType = {
 export const Routes = (props: RoutesType) => {
   return (
     <Switch>
+      <Route  exact path='/graphQL-test' render={ () => <Main isLoggedFromStorage={props.isLoggedFromStorage}/> }/>
       <Route  exact path='/' render={ () => <Main isLoggedFromStorage={props.isLoggedFromStorage}/> }/>
       <Route  path='/login' render={ () => <LoginPage loginHandler={props.logInHandler} loading={props.loadingProgress} isLoggedFromStorage={props.isLoggedFromStorage}/> }/>
       <Route  path='/:id' render={ () => <CustomCountryInformation /> }/>

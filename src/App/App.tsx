@@ -9,9 +9,10 @@ function App() {
   const [loadingProgress, setLoadingProgress] = useState(false)
   const isLoggedFromStorage = localStorage.getItem('loggedIn')
   const logInHandler = () => {
+    debugger
     setLoadingProgress(true)
+    localStorage.setItem('loggedIn', 'true')
     setTimeout(() => {
-      localStorage.setItem('loggedIn', 'true')
       setIsLoggedIn(true)
     }, 1000)
   }
