@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/graphQL-test/static/css/main.1b5d3536.chunk.css",
+    "main.js": "/graphQL-test/static/js/main.4e168faa.chunk.js",
+    "main.js.map": "/graphQL-test/static/js/main.4e168faa.chunk.js.map",
+    "runtime-main.js": "/graphQL-test/static/js/runtime-main.eb3c4771.js",
+    "runtime-main.js.map": "/graphQL-test/static/js/runtime-main.eb3c4771.js.map",
+    "static/js/2.0da38b18.chunk.js": "/graphQL-test/static/js/2.0da38b18.chunk.js",
+    "static/js/2.0da38b18.chunk.js.map": "/graphQL-test/static/js/2.0da38b18.chunk.js.map",
+    "index.html": "/graphQL-test/index.html",
+    "precache-manifest.d93d55a6498f082c5f1f51f0a84e7588.js": "/graphQL-test/precache-manifest.d93d55a6498f082c5f1f51f0a84e7588.js",
+    "service-worker.js": "/graphQL-test/service-worker.js",
+    "static/css/main.1b5d3536.chunk.css.map": "/graphQL-test/static/css/main.1b5d3536.chunk.css.map",
+    "static/js/2.0da38b18.chunk.js.LICENSE.txt": "/graphQL-test/static/js/2.0da38b18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb3c4771.js",
+    "static/js/2.0da38b18.chunk.js",
+    "static/css/main.1b5d3536.chunk.css",
+    "static/js/main.4e168faa.chunk.js"
+  ]
+}
