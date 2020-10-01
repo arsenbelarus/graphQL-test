@@ -1,0 +1,35 @@
+.customCountryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8999ac;
+    color: #0b1821;
+    height: 200px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.navLinkToMain {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: ivory;
+    font-variant: all-petite-caps;
+    background-color: mediumblue;
+    width: 300px;
+    padding: .5rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 4px grey;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .customCountryContainer {
+        height: fit-content;
+        text-align: center;
+        width: 80%;
+        padding: 20px;
+    }
+}

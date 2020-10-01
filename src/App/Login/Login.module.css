@@ -1,0 +1,41 @@
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.login {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8999ac;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.input {
+    width: 80%;
+}
+
+.btn {
+    width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+    .login {
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #8999ac;
+        border-radius: 10px;
+        padding: 50px 0;
+    }
+}

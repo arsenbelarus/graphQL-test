@@ -1,0 +1,28 @@
+.headerContainer {
+    background: #8999ac;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    height: 40px;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0b1821;
+}
+
+.navLinkHeader {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #0b1821;
+    font-variant: all-petite-caps;
+    background-color: mediumblue;
+    width: 150px;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 4px grey;
+    cursor: pointer;
+    text-align: center;
+}
