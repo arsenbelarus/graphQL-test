@@ -33,11 +33,11 @@ export const Main = (props: MainType) => {
   }
 
   if (!props.isLoggedFromStorage) {
-    return <Redirect to={'/login'}/>
+    return <Redirect to={'/graphQL-test/login'}/>
   }
   return data.Country.map((country: Country) => (
     <div key={country.name} className={style.countriesContainer}>
-      <NavLink to={`/${country.alpha3Code}`} className={style.countryContainer}>
+      <NavLink to={`/graphQL-test/${country.alpha3Code}`} className={style.countryContainer}>
         <div className={style.flag}>
           <img src={country.flag.svgFile} alt={country.name}/>
         </div>

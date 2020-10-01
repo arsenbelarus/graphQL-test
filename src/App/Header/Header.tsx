@@ -15,7 +15,7 @@ export const Header = (props: HeaderPropsType) => {
     <div className={style.headerContainer}>
       <span> GraphQL Test </span>
       { props.isLoggedFromStorage
-        ? <NavLink to={'/login'} onClick={props.onLogout} className={style.navLinkHeader}> LogOut </NavLink>
+        ? <NavLink to={'/graphQL-test/login'} onClick={props.onLogout} className={style.navLinkHeader}> LogOut </NavLink>
         : <span> Not Authorised </span> }
     </div>
   )

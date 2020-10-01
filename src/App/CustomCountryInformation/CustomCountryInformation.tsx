@@ -12,7 +12,7 @@ export const CustomCountryInformation = () => {
   return (
     <div className={style.customCountryContainer}>
       <h2> Hello. This is a page related with country-code: {id}</h2>
-      <Link to={'/'} className={style.navLinkToMain}> Back to country list </Link>
+      <Link to={'/graphQL-test'} className={style.navLinkToMain}> Back to country list </Link>
     </div>
   )
 }

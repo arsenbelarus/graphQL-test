@@ -18,7 +18,7 @@ export const LoginPage = (props: LoginPageType) => {
   const passwordHandler = (e: ChangeEvent<HTMLInputElement>) => setPassword(e.currentTarget.value)
 
   if (props.isLoggedFromStorage) {
-    return <Redirect to={'/'}/>
+    return <Redirect to={'/graphQL-test'}/>
   }
 
   return (
