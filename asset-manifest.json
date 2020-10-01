@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/graphQL-test/static/css/main.1b5d3536.chunk.css",
-    "main.js": "/graphQL-test/static/js/main.b988a494.chunk.js",
-    "main.js.map": "/graphQL-test/static/js/main.b988a494.chunk.js.map",
+    "main.js": "/graphQL-test/static/js/main.56bb1969.chunk.js",
+    "main.js.map": "/graphQL-test/static/js/main.56bb1969.chunk.js.map",
     "runtime-main.js": "/graphQL-test/static/js/runtime-main.eb3c4771.js",
     "runtime-main.js.map": "/graphQL-test/static/js/runtime-main.eb3c4771.js.map",
     "static/js/2.0da38b18.chunk.js": "/graphQL-test/static/js/2.0da38b18.chunk.js",
     "static/js/2.0da38b18.chunk.js.map": "/graphQL-test/static/js/2.0da38b18.chunk.js.map",
     "index.html": "/graphQL-test/index.html",
-    "precache-manifest.a3814644c520a2e357c76730fd1a8c03.js": "/graphQL-test/precache-manifest.a3814644c520a2e357c76730fd1a8c03.js",
+    "precache-manifest.fd7c06d03a91268590ee009e17629134.js": "/graphQL-test/precache-manifest.fd7c06d03a91268590ee009e17629134.js",
     "service-worker.js": "/graphQL-test/service-worker.js",
     "static/css/main.1b5d3536.chunk.css.map": "/graphQL-test/static/css/main.1b5d3536.chunk.css.map",
     "static/js/2.0da38b18.chunk.js.LICENSE.txt": "/graphQL-test/static/js/2.0da38b18.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.eb3c4771.js",
     "static/js/2.0da38b18.chunk.js",
     "static/css/main.1b5d3536.chunk.css",
-    "static/js/main.b988a494.chunk.js"
+    "static/js/main.56bb1969.chunk.js"
   ]
 }
